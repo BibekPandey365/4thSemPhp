@@ -1,7 +1,5 @@
 <?php
 
-echo "<b><u>3 x 3 Matrix</u></b><br>";
-
 $matrix = array (
     array(1, 11, 32),
     array(22, 15, 10),
