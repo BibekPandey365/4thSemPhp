@@ -16,6 +16,20 @@ echo "</table>";
 
 
 
+
+echo "<br><b><u>2018:</u></b><br>";
+
+$details = array("BIM", "BBA", "BBS");
+echo "<ol type = a>";
+foreach($details as $a)
+{
+    echo "<li>".$a."</li>";
+}
+echo "</ol>";
+
+
+
+
 echo "<br><b><u>2017:</u></b><br>";
 
 $details = array(1 => array("1", "Aalu", "Veg", "Local", "10x8 cm"),
@@ -35,6 +49,25 @@ for($i=1; $i<=count($details); $i++)
 }
 
 echo "</table>";
+
+
+
+
+echo "<br><b><u>2016:</u></b><br>";
+
+$cities = array("Kathmandu" => array("New Road", "Durbar MArg", "Thamel"),
+    "Lalitpur" => array("Patan", "Jawlakhel", "Kupondole"),
+    "Bhaktapur" => array("Surya Binayak", "Durbar Square"));
+
+foreach($cities as $i => $j)
+{
+    echo "<u>Cities of ".$i." :</u><br>";
+    foreach($j as $v)
+    {
+        echo "&nbsp".$v."<br>";
+    }
+}
+
 
 
 
